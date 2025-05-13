@@ -1,17 +1,17 @@
 [
   {
     "icon": "MdPlace",
-    "title": "Find us",
+    "title": "Address",
     "details": "Laxmi Nagar, Delhi"
   },
   {
     "icon": "IoCallSharp",
-    "title": "Call us",
+    "title": "Phone",
     "details": "+91 6386256070"
   },
   {
     "icon": "TbMailPlus",
-    "title": "Mail us",
+    "title": "Email",
     "details": "anshu.maurya7300@gmail.com"
   }
 ]

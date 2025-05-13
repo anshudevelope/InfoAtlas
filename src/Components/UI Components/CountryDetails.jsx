@@ -83,7 +83,7 @@ export const CountryDetails = () => {
         )}
         <div className="country-card-backBtn">
           <NavLink to="/country" className="backBtn">
-            <button>Go Back</button>
+            <button>Back</button>
           </NavLink>
         </div>
       </div>

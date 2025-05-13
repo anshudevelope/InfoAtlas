@@ -27,7 +27,7 @@ const CountryCards = ({ country }) => {
                         </p>
 
                         <NavLink to={`/country/${name.common}`}>
-                            <button>Read More</button>
+                            <button>View More</button>
                         </NavLink>
                     </div>
                 </div>
