@@ -1,0 +1,66 @@
+.title {
+    text-align: center;
+}
+
+.title p {
+    font-size: 15px;
+    font-weight: 600;
+    color: #febf02;
+}
+
+.title h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+.programs {
+    margin: 80px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.programs img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.program {
+    flex-basis: 31%;
+    position: relative;
+    cursor: pointer;
+}
+
+.caption {
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 15, 152, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    opacity: 0;
+    padding-top: 70%;
+    transition: all 0.3s ease-in-out;
+}
+
+.program:hover .caption {
+    opacity: 1;
+    padding-top: 0;
+}
+
+@media (max-width: 768px) {
+    .programs {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
