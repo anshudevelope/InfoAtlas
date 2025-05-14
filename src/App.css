@@ -279,6 +279,7 @@ nav ul {
     background-color: #0d1212;
     width: 100%;
     box-shadow: rgba(255, 252, 252, 0.25) 0px 14px 28px;
+    transition: all 0.3s ease-in-out;
   }
 
   .menu-mobile ul {
