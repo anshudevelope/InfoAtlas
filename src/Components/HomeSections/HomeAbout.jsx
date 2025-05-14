@@ -1,43 +1,21 @@
 import React from 'react'
 import './HomeAbout.css'
 import { assets } from '../../assets/assets'
-import { MdTravelExplore } from "react-icons/md";
-import { RiGuideLine } from "react-icons/ri";
-import { MdOutlineLocationCity } from "react-icons/md";
-
-
-
 
 const HomeAbout = () => {
   return (
     <div className='container'>
-      <div className='title'>
-          <p>Our Services</p>
-          <h2>What We Offer?</h2>
-        </div>
-      <div className='programs'>
-        <div className='program'>
-          <img src={assets.travel_guide} alt="" />
-          <div className="caption">
-            <MdTravelExplore size={60} />
-            <p>Get Travel Guide</p>
-          </div>
-        </div>
-        <div className='program'>
-          <img src={assets.offroading_guide} alt="" />
-          <div className="caption">
-            <RiGuideLine size={60} />
-            <p>Get OFF-Roading Help</p>
-          </div>
-        </div>
-        <div className='program'>
-          <img src={assets.country_guide} alt="" />
-          <div className="caption">
-            <MdOutlineLocationCity size={60} />
-            <p>Know Your Country</p>
-          </div>
-        </div>
+    <div className='home-about'>
+      <div className="homeabout-left">
+        <img src={assets.homeabout_img} alt="" />
       </div>
+      <div className="homeabout-right">
+        <h3>ABOUT INFOATLAS</h3>
+        <h2>Discover the World Like Never Before</h2>
+        <p>your all-in-one destination for uncovering fascinating facts about countries, detailed travel guides, and thrilling adventure planning tips. </p>
+        <p><i>Whether you're curious about the cultures of Europe, the wildlife of Africa, or the hidden gems of Southeast Asia, we've got you covered.</i></p>
+      </div>
+    </div>
     </div>
   )
 }
