@@ -2,10 +2,12 @@ import React from 'react'
 import { FaLongArrowAltRight } from 'react-icons/fa'
 import { assets } from '../assets/assets'
 import facts from '../data/countryapi.json'
+import HomeServiceBrief from '../Components/HomeSections/HomeServiceBrief'
 
 const AboutPage = () => {
   return (
-    <section className='section-about container'>
+    <div className='container'>
+    <section className='section-about'>
       <div className='hero-section main'>
         <div className='container grid grid-two-cols'>
           <div className="hero-content">
@@ -51,9 +53,9 @@ const AboutPage = () => {
           })
         }
       </div>
-
-
     </section>
+    <HomeServiceBrief />
+    </div>
   )
 }
 

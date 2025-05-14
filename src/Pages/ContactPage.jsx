@@ -1,4 +1,5 @@
 import React from 'react'
+import Testimonials from '../Components/HomeSections/Testimonials';
 
 const ContactPage = () => {
 
@@ -9,45 +10,48 @@ const ContactPage = () => {
   };
 
   return (
-    <div className='section-contact'>
-      <h2 className='container-title'>Feel free to contact us!</h2>
-      <div className="contact-wrapper container">
-        <form action={handleFormSubmit}>
-          <input
-            type="text"
-            className='form-control'
-            required
-            autoComplete='off'
-            name='username'
-            placeholder='Enter your name' />
+    <div className='container'>
+      <div className='section-contact'>
+        <h2 className='container-title'>Feel free to contact us!</h2>
+        <div className="contact-wrapper container">
+          <form action={handleFormSubmit}>
+            <input
+              type="text"
+              className='form-control'
+              required
+              autoComplete='off'
+              name='username'
+              placeholder='Enter your name' />
 
-          <input
-            type="email"
-            className='form-control'
-            required
-            autoComplete='off'
-            name='email'
-            placeholder='Enter your email' />
+            <input
+              type="email"
+              className='form-control'
+              required
+              autoComplete='off'
+              name='email'
+              placeholder='Enter your email' />
 
-          <input
-            type="text"
-            className='form-control'
-            required
-            autoComplete='off'
-            name='subject'
-            placeholder='Enter your message title' />
+            <input
+              type="text"
+              className='form-control'
+              required
+              autoComplete='off'
+              name='subject'
+              placeholder='Enter your message title' />
 
-          <textarea
-            rows={10}
-            className='form-control'
-            required
-            autoComplete='off'
-            name='message'
-            placeholder='Enter your message' />
+            <textarea
+              rows={10}
+              className='form-control'
+              required
+              autoComplete='off'
+              name='message'
+              placeholder='Enter your message' />
 
-          <button type='submit' value='send'>Send</button>
-        </form>
+            <button type='submit' value='send'>Send</button>
+          </form>
+        </div>
       </div>
+      <Testimonials />
     </div>
   )
 }
