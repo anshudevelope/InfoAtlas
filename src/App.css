@@ -297,6 +297,12 @@ nav ul {
   }
 }
 
+@media screen and (max-width: 400px){
+   header{
+    padding: 1rem 0.5rem;
+  }
+}
+
 /* hero section starts here */
 
 .hero-section .container {
