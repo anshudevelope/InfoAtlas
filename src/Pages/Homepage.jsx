@@ -3,6 +3,7 @@ import HeroSection from '../Components/UI Components/HeroSection'
 import HomeAbout from '../Components/HomeSections/HomeAbout'
 import HomeServiceBrief from '../Components/HomeSections/HomeServiceBrief'
 import Testimonials from '../Components/HomeSections/Testimonials'
+import ContactForm from '../Components/UI Components/Contact Form/ContactForm'
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
     <HomeServiceBrief />
     <HomeAbout />
     <Testimonials />
+    <ContactForm />
     </>
   )
 }
