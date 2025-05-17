@@ -37,8 +37,8 @@ const ContactForm = () => {
     return (
         <div className='container'>
             <div className='title'>
-                <p>OUR SERVICES</p>
-                <h2>What We Offer?</h2>
+                <p>Contact Us</p>
+                <h2>Want to Connect?</h2>
             </div>
             <div className="contact">
                 <div className="contact-col">
